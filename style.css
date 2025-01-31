@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    font-family: 'inter';
+}
+
+
+#titulomenusuperior{
+    margin-left: 150px;
+    padding-top: 160px;
+    padding-bottom: 10px;
+    font-size: 60px;
+}
+
+#textomenusuperior{
+    margin-left: 150px;
+    padding-bottom: 60px;
+    font-size: 20px;
+}
+
+
+#menusuperior{
+    background-image: linear-gradient(#464646, #303030);
+    color: white;
+}
+
+#menuinfo{
+    background-color: #F9F9F9;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    font-size: 20px;
+}
+
+.textoinfo{
+    color: #303030;
+    display: flex;
+    align-items: center;
+}
+
+#textosubmenu{
+    margin: 50px 0px 50px 200px;
+    align-items: center;
+}
+
+#corpo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    margin-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 10%;
+}
+
+#textocorpo{
+    margin: auto;
+    margin-left: 10%;
+    padding-right: 10%;
+}
+
+#titulodescricao{
+    font-size: 40px;
+}
+
+#descricao{
+    text-align: justify;
+    font-size: 25px;
+    margin: 0% 18% 0% 0%;
+}
+
+#formulario{
+    background-color: #303030;
+    display: grid;
+    place-items: center;
+    padding-bottom: 50px;
+}
+
+#textoformulario{
+    text-align: center;
+    color: #F9F9F9;
+    font-size: 32px;
+    padding-top: 50px;
+    margin-bottom: 30px;
+}
+
+
+input{
+    font-size: 20px;
+    align-items: center;
+    width: 500px;
+    height: 50px;
+    margin: 30px;
+    border: 0;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+button{
+    font-size: 20px;
+    font-weight: bold;
+    color: #F9F9F9;
+    width: 200px;
+    height: 50px;
+    border: 0px;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 190px;
+    background-color: #C07212;
+    box-shadow: 3px 3px #000000;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #f89b28;
+    box-shadow: 0px 0px 10px #ff8902;
+    transform: translateY(-7px);
+    transition-duration: 0,7s;
+}
+
+.zoom-image {
+    transition: transform 0.3s ease;
+    width: 100%;
+    max-width: 90%; /* Defina o tamanho máximo da imagem */
+    cursor: pointer;
+}
+
+/* Quando a imagem for ampliada */
+.zoom-image:hover {
+    transform: scale(1.2); /* Amplia a imagem */
+}
